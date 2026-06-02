@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(140deg, #9adaff 0%, #d0c4fa 100%);
+}
+.card { 
+    width: 350px;
+    max-width: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: none 0px 10px 30px rgba(11, 11, 49, 0.1);
+    text-align: center;
+}
+    
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #1b10b9;
+}
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #5f10b9;
+}
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.boton-github {
+    background-color: #1b10b9;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-github:hover {
+    background-color: #5c65e4;
+}
+
+.habilidades {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.habilidades li {
+    background-color: #ffffffff;
+    margin-bottom: 8px;
+}
+
+.habilidades {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.barra {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.barra-llena {
+    background-color: #1b10b9;
+    height: 100%;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Diseño adaptado para teléfonos móviles */
+@media (max-width: 768px) {
+    .contenido-principal {
+        flex-direction: column; /* Apila los elementos verticalmente */
+    }
+}
